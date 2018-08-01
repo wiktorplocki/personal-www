@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import { Col, Container, Row } from 'reactstrap';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
+import Header from './components/Header/Header';
+
 require('./stylesheets/main.scss');
 
 const App = () => (
@@ -10,7 +12,7 @@ const App = () => (
     <Container>
       <Row>
         <Col>
-          <h1>Hello World</h1>
+          <Header />
         </Col>
       </Row>
     </Container>
